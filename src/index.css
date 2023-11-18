@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'shbnam';
+  src: url('./assets/fonts/shbnam/Shabnam-FD.woff');
+}
+
+@font-face {
+  font-family: 'shbnam-medium';
+  src: url('./assets/fonts/shbnam/Shabnam-Medium-FD.woff');
+}
+
+@font-face {
+  font-family: 'shbnam-bold';
+  src: url('./assets/fonts/shbnam/Shabnam-Bold-FD.woff');
+}
+
+body{
+  font-family: 'shbnam-medium';
+  background-color: #F4F5F5;
+  font-size: 14px;
+}
